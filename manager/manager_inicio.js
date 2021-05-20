@@ -19,7 +19,7 @@ $(document).ready(() => {
             data: {
                 'vista': 'vista_1'
             },
-            url: 'control/control_vista_1',
+            url: 'control/control_vista_1.php',
             success: (r) => {
                 SwalOverlayColor("verde");
                 swal({
@@ -38,7 +38,7 @@ $(document).ready(() => {
             data: {
                 'vista': 'vista_2'
             },
-            url: 'control/control_vista_2',
+            url: 'control/control_vista_2.php',
             success: (r) => {
                 SwalOverlayColor("azul");
                 swal({
@@ -57,7 +57,7 @@ $(document).ready(() => {
             data: {
                 'vista': 'vista_3'
             },
-            url: 'control/control_vista_3',
+            url: 'control/control_vista_3.php',
             success: (r) => {
                 SwalOverlayColor("rojo");
                 swal({
